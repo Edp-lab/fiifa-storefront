@@ -1,6 +1,9 @@
 {
   "messages": {
     "general": {
+      "termsAndConditions": "Terms & Conditions",
+      "privacyPolicy": "Privacy Policy",
+      "contactUs": "Contact Us",
       "viewAll": "View All",
       "share": "Share",
       "date": "Date",

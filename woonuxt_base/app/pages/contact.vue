@@ -1,3 +1,9 @@
+<script>
+useHead({
+title: `Contact`,
+meta: [{ hid: 'description', name: 'description', content: 'Contact' }],
+});
+</script>
 <template>
   <div class="container my-8">
     <h1 class="mb-8 text-3xl font-semibold text-primary">Contact Page</h1>
