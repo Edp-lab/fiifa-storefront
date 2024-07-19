@@ -1,5 +1,6 @@
 import { createResolver } from '@nuxt/kit';
 const { resolve } = createResolver(import.meta.url);
+import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
   future: {
@@ -9,7 +10,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
-      link: [{ rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
+      link: [{ rel: 'icon', href: '/images/cropped-Fiifa_logo1_1x1_caurspidigs_512x512.png', type: 'image/png' }],
     },
     pageTransition: { name: 'page', mode: 'out-in' },
   },
@@ -65,11 +66,7 @@ export default defineNuxtConfig({
   i18n: {
     locales: [
       { code: 'en_US', file: 'en-US.json', name: 'English 🇺🇸' },
-      { code: 'de_DE', file: 'de-DE.json', name: 'Deutsch 🇩🇪' },
-      { code: 'es_ES', file: 'es-ES.json', name: 'Español 🇪🇸' },
-      { code: 'fr_FR', file: 'fr-FR.json', name: 'Français 🇫🇷' },
-      { code: 'it_IT', file: 'it-IT.json', name: 'Italiano 🇮🇹' },
-      { code: 'pt_BR', file: 'pt-BR.json', name: 'Português 🇧🇷' },
+      { code: 'lv_LV', file: 'lv-LV.json', name: 'Latviešu 🇱🇻' },
     ],
     langDir: 'locales',
     defaultLocale: 'en_US',
