@@ -17,4 +17,9 @@ fragment ProductCategory on ProductCategory {
     altText
     title
   }
+  parent {
+    node {
+      slug
+    }
+  }
 }

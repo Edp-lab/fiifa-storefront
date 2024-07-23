@@ -50,7 +50,8 @@ const imagetoDisplay = computed<string>(() => {
         :loading="index <= 3 ? 'eager' : 'lazy'"
         :sizes="`${imgWidth / 2}px md:${imgWidth}px`"
         placeholder
-        placeholder-class="blur-xl" />
+        placeholder-class="blur-xl"
+        quality=100 />
     </NuxtLink>
     <div class="p-2">
       <StarRating v-if="storeSettings.showReviews" :rating="node.averageRating" :count="node.reviewCount" />

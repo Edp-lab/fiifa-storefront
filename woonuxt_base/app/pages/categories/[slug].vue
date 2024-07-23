@@ -1,12 +1,16 @@
-<script lang="ts" setup>
+﻿<script lang="ts" setup>
+const route = useRoute();
+const slug = route.params.slug;
 const { data } = await useAsyncGql('getProductCategories');
-const productCategories = data.value.productCategories?.nodes as ProductCategory[];
+const productCategories = data.value.productCategories?.nodes.filter(category => category.parent?.node?.slug == slug) as ProductCategory[];
 
 useHead({
-  title: `Categories`,
+  title: slug.toString().toUpperCase(),
   meta: [{ name: 'description', content: 'All product categories' }],
   link: [{ rel: 'canonical', href: 'https://v3.woonuxt.com/categories' }],
 });
+
+console.log({productCategories});
 </script>
 
 <template>
