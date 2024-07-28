@@ -9,8 +9,6 @@ useHead({
   meta: [{ name: 'description', content: 'All product categories' }],
   link: [{ rel: 'canonical', href: 'https://v3.woonuxt.com/categories' }],
 });
-
-console.log({productCategories});
 </script>
 
 <template>
