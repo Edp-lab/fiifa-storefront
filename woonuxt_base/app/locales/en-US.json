@@ -22,6 +22,7 @@
       "allProducts": "Products",
       "product": "Product",
       "contact": "Contact",
+      "contacts": "Contacts",
       "menu": "Menu",
       "color": "Color",
       "choose": "Choose | Choose",
@@ -36,7 +37,10 @@
       "goHome": "Go Home",
       "newsletter": "Newsletter",
       "customerService": "Customer Service",
-      "processing": "Processing"
+      "processing": "Processing",
+      "shoes": "SHOES",
+      "newArrivals": "NEW ARRIVALS",
+      "clothes": "CLOTHES"
     },
     "account": {
       "changePassword": "Change Password",

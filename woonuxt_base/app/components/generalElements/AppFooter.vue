@@ -38,4 +38,8 @@
 a {
   @apply hover:underline;
 }
+
+footer {
+  margin-top: auto;
+}
 </style>

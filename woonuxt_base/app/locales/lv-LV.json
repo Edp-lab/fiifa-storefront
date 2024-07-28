@@ -22,6 +22,7 @@
       "allProducts": "Produkti",
       "product": "Produkts",
       "contact": "Kontakti",
+      "contacts": "Kontakti",
       "menu": "Izvēlne",
       "color": "Krāsa",
       "choose": "Izvēlies | Izvēlies",
@@ -36,7 +37,10 @@
       "goHome": "Uz galveno",
       "newsletter": "Newsletter",
       "customerService": "Klientu apkalpošana",
-      "processing": "Apstrādā"
+      "processing": "Apstrādā",
+      "shoes": "APAVI",
+      "newArrivals": "JAUNUMI",
+      "clothes": "APĢĒRBI"
     },
     "account": {
       "changePassword": "Mainīt paroli",
