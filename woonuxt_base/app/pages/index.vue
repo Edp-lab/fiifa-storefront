@@ -53,7 +53,7 @@ useSeoMeta({
         <img src="/icons/moneyback.svg" width="60" height="60" alt="Money Back" loading="lazy" />
         <div>
           <h3 class="text-xl font-semibold">Peace of Mind</h3>
-          <p class="text-sm">30 days money back guarantee</p>
+          <p class="text-sm">15 days money back guarantee</p>
         </div>
       </div>
       <div class="flex items-center gap-8 p-8 bg-white rounded-lg">
