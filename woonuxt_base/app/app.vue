@@ -3,6 +3,7 @@ const route = useRoute();
 const { isShowingCart, toggleCart } = useCart();
 const { isShowingMobileMenu, toggleMobileMenu, addBodyClass, removeBodyClass } = useHelpers();
 const { siteName } = useAppConfig();
+const runtimeConfig = useRuntimeConfig();
 
 const closeCartAndMenu = () => {
   toggleCart(false);
@@ -21,6 +22,23 @@ watch(
 useHead({
   titleTemplate: `%s - ${siteName}`,
 });
+
+runtimeConfig.public.GLOBAL_PRODUCT_ATTRIBUTES = [
+    {
+      slug: 'pa_color',
+      label: 'Color',
+      openByDefault: true,
+      showCount: true,
+      hideEmpty: true,
+    },
+    {
+      slug: 'pa_size',
+      label: 'Size',
+      openByDefault: true,
+      showCount: true,
+      hideEmpty: true,
+    }
+  ];
 </script>
 
 <template>
