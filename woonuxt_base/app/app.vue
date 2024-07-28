@@ -26,14 +26,14 @@ useHead({
 runtimeConfig.public.GLOBAL_PRODUCT_ATTRIBUTES = [
     {
       slug: 'pa_color',
-      label: 'Color',
+      label: 'Krāsa',
       openByDefault: true,
       showCount: true,
       hideEmpty: true,
     },
     {
       slug: 'pa_size',
-      label: 'Size',
+      label: 'Izmērs',
       openByDefault: true,
       showCount: true,
       hideEmpty: true,
