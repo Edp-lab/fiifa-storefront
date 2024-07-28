@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   components: [{ path: resolve('./app/components'), pathPrefix: false }],
 
   modules: ['woonuxt-settings', 'nuxt-graphql-client', '@nuxtjs/tailwindcss', 'nuxt-icon', '@nuxt/image', '@nuxtjs/i18n'],
-
+  
   'graphql-client': {
     clients: {
       default: {
@@ -71,5 +71,24 @@ export default defineNuxtConfig({
     langDir: 'locales',
     defaultLocale: 'en_US',
     strategy: 'no_prefix',
+  },
+
+  public: {
+    GLOBAL_PRODUCT_ATTRIBUTES: [
+      {
+        slug: 'pa_color',
+        label: 'Color',
+        openByDefault: true,
+        showCount: true,
+        hideEmpty: true,
+      },
+      {
+        slug: 'pa_size',
+        label: 'Size',
+        openByDefault: true,
+        showCount: true,
+        hideEmpty: true,
+      }
+    ],
   },
 });

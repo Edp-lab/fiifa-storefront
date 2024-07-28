@@ -5,8 +5,8 @@
  */
 export default defineAppConfig({
   siteName: 'Fiifa',
-  shortDescription: 'This is an example of a WooNuxt store. It provides a modern, fast, and SEO friendly ecommerce store built with Nuxt and WooCommerce.',
-  description: `Fiifa - sieviešu apģērbi un aksesuāri`,
+  shortDescription: 'ALWAYS DRESS LIKE IT`S THE BEST DAY OF YOUR LIFE',
+  description: `Fiifa - ALWAYS DRESS LIKE IT\`S THE BEST DAY OF YOUR LIFE`,
   baseUrl: 'https://fiifa.lv',
   storeSettings: {
     autoOpenCart: false,
