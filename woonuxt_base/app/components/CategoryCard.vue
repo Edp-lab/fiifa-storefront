@@ -29,7 +29,7 @@ const { t } = useI18n();
       placeholder
       placeholder-class="blur-xl" />
     <div class="absolute inset-x-0 bottom-0 opacity-50 bg-gradient-to-t from-black to-transparent h-1/2" />
-    <span class="relative z-10 mt-auto mb-2 text-sm font-semibold text-white capitalize md:text-base md:mb-4" v-html="t(`messages.general.${node.slug}`) || node.name" />
+    <span class="relative z-10 mt-auto mb-2 text-sm font-semibold text-white capitalize md:text-base md:mb-4" v-html="t(`messages.categories.${node.slug}`) || node.name" />
   </NuxtLink>
 </template>
 
