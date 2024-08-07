@@ -41,7 +41,8 @@
       "shoes": "SHOES",
       "newArrivals": "NEW ARRIVALS",
       "clothes": "CLOTHES",
-      "accessories": "ACCESSORIES"
+      "accessories": "ACCESSORIES",
+      "bags": "Bags"
     },
     "account": {
       "changePassword": "Change Password",
