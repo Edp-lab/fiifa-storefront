@@ -151,15 +151,15 @@ onMounted(() => {
 }
 
 .color-beige {
-  @apply bg-amber-600;
+  @apply bg-pink-200;
 }
 
 .color-pink {
-  @apply bg-pink-500;
+  @apply bg-pink-600;
 }
 
 .color-light-pink {
-  @apply bg-pink-200;
+  @apply bg-pink-300;
 }
 
 input[type='radio']:checked ~ span {

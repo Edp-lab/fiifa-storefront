@@ -40,7 +40,8 @@
       "processing": "Processing",
       "shoes": "SHOES",
       "newArrivals": "NEW ARRIVALS",
-      "clothes": "CLOTHES"
+      "clothes": "CLOTHES",
+      "accessories": "ACCESSORIES"
     },
     "account": {
       "changePassword": "Change Password",
