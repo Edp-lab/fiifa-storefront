@@ -38,11 +38,23 @@
       "newsletter": "Newsletter",
       "customerService": "Klientu apkalpošana",
       "processing": "Apstrādā",
-      "shoes": "APAVI",
+      "footwear": "FOOTWEAR",
       "newArrivals": "JAUNUMI",
       "clothes": "APĢĒRBI",
       "accessories": "AKSESUĀRI",
       "bags": "Somas"
+    },
+    "categories": {
+      "shoes": "Kurpes",
+      "clothes": "Apģerbi",
+      "accessories": "Aksesuāri",
+      "bags": "Somas",
+      "boots": "Zābaki",
+      "sweaters-jackets": "Džemperi un jakas",
+      "dresses": "Kleitas",
+      "costumes-sets": "Kostīmi un komplekti",
+      "coats": "Virsjakas un mēteļi",
+      "blazers": "Žaketes"
     },
     "account": {
       "changePassword": "Mainīt paroli",

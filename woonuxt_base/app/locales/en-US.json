@@ -38,11 +38,22 @@
       "newsletter": "Newsletter",
       "customerService": "Customer Service",
       "processing": "Processing",
-      "shoes": "SHOES",
+      "footwear": "FOOTWEAR",
       "newArrivals": "NEW ARRIVALS",
       "clothes": "CLOTHES",
       "accessories": "ACCESSORIES",
-      "bags": "Bags"
+    },
+    "categories": {
+      "shoes": "Shoes",
+      "clothes": "Clothes",
+      "accessories": "Accessories",
+      "bags": "Bags",
+      "boots": "Boots",
+      "sweaters-jackets": "Sweaters and jackets",
+      "dresses": "Dresses",
+      "costumes-sets": "Costumes and sets",
+      "coats": "Coats",
+      "blazers": "Blazers"
     },
     "account": {
       "changePassword": "Change Password",
